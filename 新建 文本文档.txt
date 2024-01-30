@@ -1,0 +1,22 @@
+"1.Software Logic:\n" +
+                                "The app performs translation using the Yandex Translate API, indicating proper integration with an external service.\n" +
+                                "2.ViewModel:\n" +
+                                "The implementation of the TrnslViewModel class adheres to the ViewModel pattern, effectively managing the UI-related data and logic.\n" +
+                                "3.Mobile UI:\n" +
+                                "The app's user interface is implemented using Jetpack Compose, a modern and suitable framework for mobile app development.\n" +
+                                "4.Theme Modification:\n" +
+                                "The code uses MyTranslationTheme, suggesting the implementation of a custom theme with some modifications to default colors.\n" +
+                                "5.Strings in Resource File:\n" +
+                                "The use of stringResource indicates the potential use of a resource file for managing string values.\n" +
+                                "6.Navigation and Screens:\n" +
+                                "Navigation is implemented using NavHost, and the app features at least two screens (MainScreen and InfoScreen), providing a structured user flow.\n" +
+                                "7.API Service Usage:\n" +
+                                "Interaction with the Yandex Translate API is facilitated through the TrnslApi and TrnslTextApi interfaces, demonstrating integration with external services for language data retrieval and text translation.\n" +
+                                "8.MVVM Architecture:\n" +
+                                "The MVVM architecture is followed with the TrnslViewModel managing the UI-related data and interactions.\n" +
+                                "9.Code Organization:\n" +
+                                "The code is well-organized into separate files and packages, contributing to readability and maintainability.\n" +
+                                "10.Error Handling and Loading Indication:\n" +
+                                "The inclusion of try-catch blocks for API interactions ensures proper error handling, with error messages being logged. The loading state is managed through the getData and result properties, providing feedback to users during API calls.\n" +
+                                "11.Displaying an Image:\n" +
+                                "The Coil library is utilized for displaying images, specifically in the AsyncImage components."

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MyTranslation</string>
+    <string name="DefaultTrsnlKey">en</string>
+    <string name="HomePage">home</string>
+    <string name="InfoPage">info</string>
+    <string name="DefaultTrsnlName">English</string>
+    <string name="click_me">Translate</string>
+    <string name="enter_text">Please enter your content</string>
+    <string name="select_language">Select Language</string>
+    <string name="open_select_language_menu">Open select language menu</string>
+    <string name="error">Error</string>
+    <string name="loading">Loading...</string>
+    <string name="arrows">Arrows pointing from the left to the right indicate the direction of translation</string>
+    <string name="waiting_to_be_translated">Waiting to be translated</string>
+    <string name="_1_software_logic">1.Software Logic:\nThe app performs translation using the Yandex Translate API, indicating proper integration with an external service.\n</string>
+    <string name="_2_viewmodel">2.ViewModel:\nThe implementation of the TrnslViewModel class adheres to the ViewModel pattern, effectively managing the UI-related data and logic.\n</string>
+    <string name="_3_mobile_ui">3.Mobile UI:\nThe app\'s user interface is implemented using Jetpack Compose, a modern and suitable framework for mobile app development.\n</string>
+    <string name="_4_theme_modification">4.Theme Modification:\nThe code uses MyTranslationTheme, suggesting the implementation of a custom theme with some modifications to default colors.\n</string>
+    <string name="_5_strings_in_resource_file">5.Strings in Resource File:\nThe use of stringResource indicates the potential use of a resource file for managing string values.\n</string>
+    <string name="_6_navigation_and_screens">6.Navigation and Screens:\nNavigation is implemented using NavHost, and the app features at least two screens (MainScreen and InfoScreen), providing a structured user flow.\n</string>
+    <string name="_7_api_service_usage">7.API Service Usage:\nInteraction with the Yandex Translate API is facilitated through the TrnslApi and TrnslTextApi interfaces, demonstrating integration with external services for language data retrieval and text translation.\n</string>
+    <string name="_8_mvvm_architecture">8.MVVM Architecture:\nThe MVVM architecture is followed with the TrnslViewModel managing the UI-related data and interactions.\n</string>
+    <string name="_9_code_organization">9.Code Organization:\nThe code is well-organized into separate files and packages, contributing to readability and maintainability.\n</string>
+    <string name="_10_error_handling_and_loading_indication">10.Error Handling and Loading Indication:\nThe inclusion of try-catch blocks for API interactions ensures proper error handling, with error messages being logged. The loading state is managed through the getData and result properties, providing feedback to users during API calls.\n</string>
+    <string name="_11_displaying_an_image">11.Displaying an Image:\nThe Coil library is utilized for displaying images, specifically in the AsyncImage components.</string>
+    <string name="author">Author: Hu Yiming</string>
+    <string name="contact">Contact: c3huyi00@students.oamk.fi</string>
+</resources>
