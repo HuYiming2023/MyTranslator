@@ -426,7 +426,7 @@ fun InfoScreen(navController: NavController) {
                                 stringResource(R.string._8_mvvm_architecture) +
                                 stringResource(R.string._9_code_organization) +
                                 stringResource(R.string._10_error_handling_and_loading_indication) +
-                                stringResource(R.string._11_displaying_an_image)
+                                stringResource(R.string._11_displaying_an_image),
                     )
                     Divider(color = Color.LightGray, thickness = 2.dp)
                     Text(
