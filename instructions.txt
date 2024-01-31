@@ -1,0 +1,19 @@
+This is a translation app built using Jetpack Compose and ViewModel. The application allows users to input text, select source and target languages, and then perform translation. It leverages the Yandex Translate API for translation support and utilizes ViewModel to manage the application's data and business logic.
+
+Key Features:
+1. Text Translation: Users can input text on the main interface, choose source and target languages, and initiate translation by clicking a button.
+2. Multilingual Support: The app supports multiple languages, and users can select source and target languages from a dropdown menu.
+3. Navigation: The app consists of two screens, the main page, and an information page. Users can switch between these screens using the bottom navigation bar.
+
+Key Components and Technologies:
+1. Compose Framework: Modern and declarative UI programming for building the user interface.
+2. ViewModel: Utilizes ViewModel to manage the application's data state and business logic, ensuring data persistence during UI reconstruction.
+3. Retrofit Library: Interacts with the Yandex Translate API using Retrofit, facilitating actions such as retrieving supported language lists and translating text.
+4. Coil Library: The app utilizes the Coil library for image loading.
+
+Usage Instructions:
+1. Input the text to be translated in the main page's text box.
+2. Choose the source and target languages.
+3. Click the translate button to initiate translation using the Yandex Translate API, and view the translated results.
+4. Users can switch to the information page using the bottom navigation bar to access additional details about the application.
+5. The application offers a clean and intuitive user interface, enabling users to easily translate text in a multilingual environment. 
